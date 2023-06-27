@@ -60,7 +60,7 @@ result
 8**2
 64
 
-​const myArray = [1,2,3,4]
+const myArray = [1,2,3,4]
 undefined
 const secondArray = [' string 1', ' string 2'];
 undefined
@@ -75,7 +75,6 @@ myObj.property1;
 myObj['property1'];
 "some value"
 
-​
 const variable1 = 10;
 undefined
 let variable2 = 10;
@@ -93,8 +92,7 @@ anotherVariable = 20;
 console.log(anotherVariable);
 20 debugger eval code:1:9
 undefined
-
-​var myVariable = 10
+var myVariable = 10
 undefined
 var myVariable = 20
 undefined
@@ -107,5 +105,4 @@ Uncaught SyntaxError: redeclaration of const anotherVariable
     <anonymous> debugger eval code:1
 debugger eval code:1:1
 
-​
 
