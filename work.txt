@@ -106,3 +106,4 @@ Uncaught SyntaxError: redeclaration of const anotherVariable
 debugger eval code:1:1
 
 
+hola
