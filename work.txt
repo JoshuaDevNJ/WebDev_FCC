@@ -106,4 +106,95 @@ Uncaught SyntaxError: redeclaration of const anotherVariable
 debugger eval code:1:1
 
 
-hola
+
+
+
+
+
+
+
+<main>
+  <section class="content">
+    <h2>Output</h2>
+    <h3>Programmer Memes</h3>
+    
+    <div class="meme-content">
+    
+    </div>
+    <h3>Tell me something funny</h3>
+      <div class="joke-content">
+    
+    </div>
+    <h3>Give me some wisdom...</h3>
+      <div class="quote-content">
+    
+    </div>
+    <h3>I want a riddle</h3>
+      <div class="riddle-content">
+    
+    </div>
+  </section>
+  
+  
+  <section class="sidebar">
+    <h2>Actions</h2>
+    <button onclick="showMeme()">Show a Meme</button>
+    <button onclick="showJoke()">Tell Me a Joke</button>
+    <button onclick="showQuote()">Random Quote</button>
+    <button onclick="showRiddle()">Riddle me</button>
+    <button class="reveal-btn"
+            onclick="revealAnswers()">Reveal Riddle Answer</button>
+    <p class="attribution">Code challenge by <a href="https://www.twitter.com/zg_dev"
+                                                target="_top">@zg_dev</a></p>
+  </section>
+</main>
+                                             
+body {
+  background-color: #111426;
+  color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+a {
+  color: #93AEBF;
+}
+
+img {
+  border-radius: 5px;
+  border: 1px solid #93AEBF;
+}
+
+.container {
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid white;
+  background-color: #1B2440;
+  box-shadow: 1px 0px 2px 1px #fff;
+}
+
+
+
+body {
+  background-color: #111426;
+  color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+a {
+  color: #93AEBF;
+}
+
+img {
+  border-radius: 5px;
+  border: 1px solid #93AEBF;
+}
+
+.container {
+  padding: 30px;
+  margin: 20px;
+  border: 1px solid white;
+  background-color: #1B2440;
+  box-shadow: 1px 0px 2px 1px #fff;
+}
