@@ -201,3 +201,87 @@ img {
 
 
 your fat go to the gym
+
+
+const name ="Joshua";
+
+const age= 24;
+
+const combined = name + " " + age;
+print(combined)
+
+
+// myAge = 24;
+
+//const yourAgee = 21;
+
+//console.log(myAge+youAgee)
+
+
+
+
+//var first_name = "Joshua";
+//var last_name = "Ramos";
+
+//print(first_name + " " + last_name)
+
+// var number = 1;
+
+// while (number<=20) {
+//   if(number % 2 ==0 )
+//   print(number,"= even")
+   
+//   else{
+//       print(number," = odd")
+//   }
+  
+  
+  
+  
+  
+//     number++
+    
+// }
+
+
+
+
+
+
+//var number = 1;
+
+//while (number<=30)  {
+    
+    //if(number % 2 == 1){
+   //     print("number is: ", number);
+   // }
+    
+   // number++;
+//}
+
+
+
+
+
+
+
+
+
+//print(13%2 == 2)
+
+// var i = 1;
+
+// while(i<21) {
+    
+//     if (i > 13) {
+//         print(i);
+//     }
+//     else {
+//         print(i,"Number is too small.")
+        
+//     }
+   
+//     i++;
+// }
+
+
