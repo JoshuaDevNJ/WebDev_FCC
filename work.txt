@@ -284,4 +284,239 @@ print(combined)
 //     i++;
 // }
 
+// Arrays
+// const myArrayA = ["a","b","c","d","e","f"];
 
+// const newString = myArray.join();
+
+// const newArray = newString.split(",");
+
+// console.log(newString);
+
+// console.log(newArray)
+
+
+//add elements to an array 
+// myArray[0] = "josh";
+// myArray[1] = "1001";
+// myArray[2] = false;
+
+// console.log(myArray)
+
+// const newLength = (myArray.unshift(42))
+// console.log(newLength);
+
+// console.log(myArray.unshift("hi"));
+
+// console.log(myArray);
+
+// const newArray = myArray.unshift('word');
+
+// console.log(newArray);
+
+
+//myArray.push("school");
+
+//myArray.unshift(42);
+
+// const newLength = myArray.unshift(42);
+
+// console.log(newLength);
+
+//console.log(myArray);
+
+//const lastItem = myArray.pop()
+
+//console.log(myArray)
+
+//myArray.pop();
+
+//console.group(myArray);
+// refer to an array
+
+//console.log(myArray);
+//length
+//console.log(myArray.length);
+
+//last element in a array
+//console.group(myArray[myArray.length - 1])
+//console.log(myArray[1])
+
+// const myArrayA = ["a","b","c"]
+// const myArrayB = ["d","e","f"]
+
+// const newArray = myArrayA.concat(myArrayB);
+
+// console.log(newArray);
+
+const equipSheIfA = ["baseball", "football","volleyball"];
+const equipSheIfB = ["basketball", "golf balls","tennis balls"];
+
+const clothesSheIfA = ["tank tops", "t-shirts","jerseys"];
+const clothesSheIfB = ["sweat tops", "sweat pants","hoodies"];
+
+console.log(equipSheIfA[1]);
+//or
+console.log(clothesSheIfB[0]);
+
+const equipDept = [equipSheIfA, equipSheIfB];
+const clothesDept = [clothesSheIfA, clothesSheIfB];
+
+console.log(equipDept[0][1]);
+console.log(clothesDept[1][0]);
+
+const sportsStore = [equipDept, clothesDept];
+console.log(sportsStore);
+
+
+// Arrays
+// const myArray = [];
+
+// //add elements to an array 
+// myArray[0] = "josh";
+// myArray[1] = "1001";
+// myArray[2] = false;
+
+// console.log(myArray)
+
+// const newLength = (myArray.unshift(42))
+// console.log(newLength);
+
+// console.log(myArray.unshift("hi"));
+
+// console.log(myArray);
+
+// const newArray = myArray.unshift('word');
+
+// console.log(newArray);
+
+
+//myArray.push("school");
+
+//myArray.unshift(42);
+
+// const newLength = myArray.unshift(42);
+
+// console.log(newLength);
+
+//console.log(myArray);
+
+//const lastItem = myArray.pop()
+
+//console.log(myArray)
+
+//myArray.pop();
+
+//console.group(myArray);
+// refer to an array
+
+//console.log(myArray);
+//length
+//console.log(myArray.length);
+
+//last element in a array
+//console.group(myArray[myArray.length - 1])
+//console.log(myArray[1])
+
+
+const equipSheIfA = ["baseball", "football","volleyball"];
+const equipSheIfB = ["basketball", "golf balls","tennis balls"];
+
+const clothesSheIfA = ["tank tops", "t-shirts","jerseys"];
+const clothesSheIfB = ["sweat tops", "sweat pants","hoodies"];
+
+console.log(equipSheIfA[1]);
+//or
+console.log(clothesSheIfB[0]);
+
+const equipDept = [equipSheIfA, equipSheIfB];
+const clothesDept = [clothesSheIfA, clothesSheIfB];
+
+console.log(equipDept[0][1]);
+console.log(clothesDept[1][0]);
+
+const sportsStore = [equipDept, clothesDept];
+console.log(sportsStore);
+
+// var numbers = [1,2,3];
+
+// console.log(numbers);
+
+// const y_array = numbers.unshift(4);
+
+// const x_array = numbers;
+
+// console.log("numbers: ", numbers);
+// console.log("x_array: ", x_array);
+// console.log("y_array: ", y_array);
+
+// const myArray = []
+
+// myArray[0] = "Josh"
+// myArray[1] = 1001;
+// myArray[2] = false;
+
+// myArray.splice(1,1, 42);
+
+// //delete myArray[1];
+
+// console.log(myArray);
+// console.log(myArray[1]);
+// const myArray = ['a', 'b', 'c','d','e','f'];
+//                //0     1    2   3   4   5
+// const newArray = myArray.slice(2, 5);
+
+// console.log(newArray);
+
+const equipSheIfA = ["baseball", "football","volleyball"];
+const equipSheIfB = ["basketball", "golf balls","tennis balls"];
+
+const clothesSheIfA = ["tank tops", "t-shirts","jerseys"];
+const clothesSheIfB = ["sweat tops", "sweat pants","hoodies"];
+
+console.log(equipSheIfA[1]);
+//or
+console.log(clothesSheIfB[0]);
+
+const equipDept = [equipSheIfA, equipSheIfB];
+const clothesDept = [clothesSheIfA, clothesSheIfB];
+
+console.log(equipDept[0][1]);
+console.log(clothesDept[1][0]);
+
+const sportsStore = [equipDept, clothesDept];
+console.log(sportsStore);
+
+<html>
+   <head>
+      <title>Using While loop in JavaScript array</title>
+   </head>
+   <body>
+      <script>
+         const emp_id = [1180, 1181, 1182, 1183, 1184, 1185, 1186];
+         let i = 0;
+         while (i < emp_id.length) {
+            document.write(emp_id[i]);
+            document.write("<br>");
+            i++;
+         }
+      </script>
+   </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        var arr = ['apple', 'banana', 'cherry'];
+        arr.forEach(function(item, index, arr) {
+            document.getElementById('output').innerHTML += '<p>' + index + ' - ' + item + '</p>';    
+        })
+    </script>
+</body>
+</html>
