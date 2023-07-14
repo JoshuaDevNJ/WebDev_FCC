@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+    <body>
+        <script>
+            const names =["Ed","John","Maria","Eliza","Burrito","Harry","Potter"];
+
+            for(x of names) {
+                document.write(`${x}`)
+                document.write("<br>")
+                if (x === "Maria") {
+                    document.write("Maria is in my list!");
+                    document.write("<br>")
+                }
+            }
+      </script>
+
+      <br>
+
+<table style="width:100%">
+    <tr>
+      <th>Company</th>
+    </tr>
+        <script>
+            const namess =["Ed","John","Maria","Eliza","Burrito","Harry","Potter"];
+
+for(x of namess) {
+    document.write("<tr><td>" + x + "</td></tr>");
+}
+        </script>
+      
+  </table>
+
+
+
+    </body>
+</html>
