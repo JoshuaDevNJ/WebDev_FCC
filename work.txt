@@ -520,3 +520,369 @@ console.log(sportsStore);
     </script>
 </body>
 </html>
+
+
+
+
+
+
+
+VIDEO WORK FOR NERDS LESSON VIDEO:
+
+
+
+
+// // // // // // // // // // // // var cheese = "yummy";
+// // // // // // // // // // // // undefined
+// // // // // // // // // // // // cheese
+// // // // // // // // // // // // "yummy"
+// // // // // // // // // // // // myNum = 5;
+// // // // // // // // // // // // 5
+// // // // // // // // // // // // var myOtherNum = 6;
+// // // // // // // // // // // // undefined
+// // // // // // // // // // // // myNum;
+// // // // // // // // // // // // 5
+// // // // // // // // // // // // myOtherNum
+// // // // // // // // // // // // 6
+// // // // // // // // // // // // var sum = myNum + myOtherNum;
+// // // // // // // // // // // // undefined
+// // // // // // // // // // // // sum
+// // // // // // // // // // // // 11
+// // // // // // // // // // // // console.log(myNum * myOtherNum);
+// // // // // // // // // // // // 30 debugger eval code:1:9
+// // // // // // // // // // // // undefined
+
+
+// // // // // // // // // // // //part 2
+// // // // // // // // // // // // var notNum = "5";
+// // // // // // // // // // // // undefined
+// // // // // // // // // // // // var newNum
+// // // // // // // // // // // // undefined
+// // // // // // // // // // // // var newNum = 10;
+// // // // // // // // // // // // undefined
+// // // // // // // // // // // // newNum + notNum;
+// // // // // // // // // // // // "105"
+// // // // // // // // // // // // var newNum2 = 6;
+// // // // // // // // // // // // undefined
+// // // // // // // // // // // // newNum + newNum2;
+// // // // // // // // // // // // 16
+
+
+// // // // // // // // // // // //last part of variables
+// // // // // // // // // // // // var myNum = 10;
+// // // // // // // // // // // undefined
+// // // // // // // // // // // var myNumAsString = "5";
+// // // // // // // // // // // undefined
+// // // // // // // // // // // typeof (myNum);
+// // // // // // // // // // // "number"
+// // // // // // // // // // // typeof (myNumAsString);
+// // // // // // // // // // // "string"
+// // // // // // // // // // // var undefinedvariable;
+// // // // // // // // // // // undefined
+// // // // // // // // // // // type of(undefinedvariable);
+// // // // // // // // // // // Uncaught SyntaxError: unexpected token: 'of'
+// // // // // // // // // // // debugger eval code:1:5
+// // // // // // // // // // // typeof (undefinedvariable)''
+// // // // // // // // // // // Uncaught SyntaxError: unexpected token: string literal
+// // // // // // // // // // // debugger eval code:1:26
+// // // // // // // // // // // typeof (undefinedvariable);
+// // // // // // // // // // // "undefined"
+// // // // // // // // // // // var nothingAtAll = null;
+// // // // // // // // // // // undefined
+// // // // // // // // // // // typeof (nothingAtAll);
+// // // // // // // // // // // "object"
+// // // // // // // // // // // var emptyString = "";
+// // // // // // // // // // // undefined
+// // // // // // // // // // // typeof (emptyString);
+// // // // // // // // // // // "string" 
+
+// // // // // // // // // // //Arrays - Part 1
+
+// // // // // // // // // // var colors1 = new Array("red", 'green', 'blue');
+// // // // // // // // // // undefined
+// // // // // // // // // // colors1[0];
+// // // // // // // // // // "red"
+// // // // // // // // // // var colors2 = ['yellow', 'orange', 'purple',];
+// // // // // // // // // // undefined
+// // // // // // // // // // colors2[2];
+// // // // // // // // // // "purple"
+// // // // // // // // // // colors2.length;
+// // // // // // // // // // 3 
+
+// // // // // // // // // //Arrays - Part 2
+// // // // // // // // // var vehicles =
+// // // // // // // // // ['Ford', ['Fiesta' , 'Taurus' ,'Explorer'],
+// // // // // // // // // 'Honda', ['Pilot' , 'Civic' , 'Accord'],
+// // // // // // // // // 'Toyota', ["Corolla", 'Camry', 'Prius'] ];
+// // // // // // // // // undefined
+// // // // // // // // // vehicles[1];
+// // // // // // // // // Array(3) [ "Fiesta", "Taurus", "Explorer" ]
+
+// // // // // // // // // vehicles[1][2];
+// // // // // // // // // "Explorer"
+// // // // // // // // // var joke = 'The chicken crossed the road';
+// // // // // // // // // undefined
+// // // // // // // // // joke[4];
+// // // // // // // // // "c"
+// // // // // // // // // joke.length;
+// // // // // // // // // 28 
+
+// // // // // // // // //arrays last part
+// // // // // // // // var animals = ['cat' , 'dog' ,'chicken'];
+// // // // // // // // undefined
+// // // // // // // // animals;
+// // // // // // // // Array(3) [ "cat", "dog", "chicken" ]
+
+// // // // // // // // animals.push('llama');
+// // // // // // // // 4
+// // // // // // // // animals;
+// // // // // // // // Array(4) [ "cat", "dog", "chicken", "llama" ]
+
+// // // // // // // // console.log(animals[2]);
+// // // // // // // // chicken debugger eval code:1:9
+// // // // // // // // undefined
+// // // // // // // // animals.splice(1,1);
+// // // // // // // // Array [ "dog" ]
+
+// // // // // // // // animals;
+// // // // // // // // Array(3) [ "cat", "chicken", "llama" ]
+
+// // // // // // // // animals.push ('dog');
+// // // // // // // // 4
+// // // // // // // // animals;
+// // // // // // // // Array(4) [ "cat", "chicken", "llama", "dog" ]
+// // // // // // // // ​
+// // // // // // // // 0: "cat"
+// // // // // // // // ​
+// // // // // // // // 1: "chicken"
+// // // // // // // // ​
+// // // // // // // // 2: "dog"
+// // // // // // // // ​
+// // // // // // // // 3: "llama"
+// // // // // // // // ​
+// // // // // // // // length: 4
+// // // // // // // // ​
+// // // // // // // // <prototype>: Array []
+
+// // // // // // // // animals.sort();
+// // // // // // // // Array(4) [ "cat", "chicken", "dog", "llama" ]
+
+// // // // // // // // animals.length
+// // // // // // // // 4
+// // // // // // // // animals[animals.length-1];
+// // // // // // // // "llama" 
+
+// // // // // // // //Module 2 - Second part getting further into the Basics.
+
+// // // // // // // <!DOCTYPE html>
+// // // // // // // <html lang="en">
+// // // // // // // <head>
+// // // // // // //     <meta charset="UTF-8">
+// // // // // // //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+// // // // // // //     <title>My File</title>
+// // // // // // //     </head>
+// // // // // // //      <body>
+// // // // // // // <h1>My First Script</h1>
+// // // // // // //          <script>
+
+// // // // // // //             var hello = "good morning josh!";
+// // // // // // //             console.log(hello);
+
+// // // // // // //         </script>
+// // // // // // //     </body>
+// // // // // // // </html>
+
+// // // // // // //js
+
+// // // // // // <!DOCTYPE html>
+// // // // // // <html lang="en">
+// // // // // // <head>
+// // // // // //     <meta charset="UTF-8">
+// // // // // //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+// // // // // //     <title>testing selections and booleans</title>
+// // // // // // </head>
+// // // // // // <body>
+// // // // // //     <h1>testing selections!</h1>
+
+
+// // // // // //     <script>
+
+// // // // // //         var red = true;
+// // // // // //         var blue = false;
+// // // // // //         if (red){
+// // // // // //             console.log("the statement is true")
+// // // // // //         }
+
+// // // // // //         else {
+// // // // // //             console.log("The statement is false!");
+// // // // // //         }
+// // // // // //     </script>
+// // // // // // </body>
+// // // // // // </html>
+
+
+
+
+
+
+
+// // // // // <!DOCTYPE html>
+// // // // // <html lang="en">
+// // // // // <head>
+// // // // //     <meta charset="UTF-8">
+// // // // //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+// // // // //     <title>testing selections and booleans</title>
+// // // // // </head>
+// // // // // <body>
+// // // // //     <h1>testing selections!</h1>
+
+
+// // // // //     <script>
+
+// // // // //         var red = true;
+// // // // //         var blue = false;
+// // // // //         var green = 1;
+// // // // //         var myNum = 5;
+// // // // //         var otherNum = 6;
+// // // // //         var notNum = "chicken";
+// // // // //         var myValue = notNum - myNum;
+// // // // //         if (myValue){
+// // // // //             console.log("the statement is true")
+// // // // //         }
+
+// // // // //         else {
+// // // // //             console.log("The statement is false!");
+// // // // //         }
+// // // // //     </script>
+// // // // // </body>
+// // // // // </html>
+
+
+
+// // // // // Else If Statements
+
+// // // // // var colors = ['red','green','blue','yellow'];
+// // // // // var selectedColor = colors[3];
+// // // // // if (selectedColor == 'red'){
+// // // // //     console.log ('the color is red');
+// // // // // }
+
+// // // // // else if ( selectedColor == 'green'){
+// // // // //     console.log("the color is green");
+
+// // // // // }
+// // // // // else if ( selectedColor == 'blue'){
+// // // // //     console.log("the color is blue");
+// // // // // }
+// // // // // else {
+// // // // //     console.log("the color is yellow")
+// // // // // }
+
+
+
+// // // // // Switch Statements in Javascript!
+
+
+// // // // // switch (selectedColor){
+// // // // // case 'red': console.log ('the color is red'); break;
+// // // // // case 'green': console.log('the color is green'); break;
+// // // // // case "blue": console.log ('the color is blue'); break;
+// // // // // case "yellow": console.log('the color is yellow'); break;
+// // // // // default: console.log ("There was an error");
+// // // // <script>
+// // // // var goodMood = true;
+// // // // var gotSleep = false;
+
+// // // // if ( goodMood && gotSleep){
+// // // //     console.log ("Today is a good day");
+// // // // }
+
+// // // // else {
+// // // //     console.log("I am grumpy!");
+// // // // }
+// // // // </script>
+
+// // // var gotBreakfast = true;
+// // // var gotLunch = true;
+// // // var gotDinner = false;
+
+// // // if( gotBreakfast || gotLunch || gotDinner){
+// // //     console.log ("I am not starving");
+// // // }
+
+// // // else{
+// // //     console.log("STARVING!");
+// // // }
+
+// // </head>
+// // <body>
+// //     <h1> Loop Examples</h1>
+
+
+// //     <script>
+
+// // for (var i = 0; i < 10 ; i++){
+// //     console.log(i + '/n');
+// // }
+
+
+// //     </script>
+// // </body>
+// // </html>
+
+// <!-- <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>Document</title>
+// </head>
+// <body>
+//     <h1>Functions in Javascript</h1>
+//     <script>
+
+// function doStuff(){
+//     var myString = "Here is a string of text";
+//     var upperString = myString.toUpperCase();
+//     console.log(myString);
+//     console.log(upperString);
+//     }
+
+//     doStuff();
+
+//  -->
+// <!-- 
+
+
+//     </script>
+// </body>
+// </html> -->
+
+
+// <!DOCTYPE html>
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8">
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//     <title>Document</title>
+// </head>
+// <body>
+//     <script>
+//     var userNum = prompt ('Enter a whole number',"");
+
+//     if (userNum <10){
+//         console.log('you entered a number less than 10');
+//         for( var i = 0; i <10; i++){
+//             console.log(`Here is a ${i}`);
+//       } 
+      
+//     }else if ( userNum > 9) {
+//         console.log('you entered a big number');
+//     } else {
+//         console.log("ERROR: you didn't enter a number!")
+//     }
+
+  
+//     </script>
+// </body>
+// </html>
